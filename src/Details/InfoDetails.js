@@ -131,56 +131,51 @@ export const portfolios = [
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "IT Excutive MERN Stack Developer",
+    Company: `Hi-tek Syndicate`,
+    Location: "New Delhi",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Mar 2021 - Oct 2022",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Desktop Support Engineer",
+    Company: `Netsoft Consulting Services (P) `,
+    Location: "New Delhi",
+    Type: "Full Time",
+    Duration: "Feb 2020 - Nov 2020",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "IT Excutive",
+    Company: `Hi-tek Syndicate`,
+    Location: "New Delhi",
+    Type: "Full Time",
+    Duration: "Oct 2017 - Feb 2020",
   },
+  
 ];
 
 
 // Enter your Work Education here
 export const educationkDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Bachelor of Computer Applications",
+    Company: `Indira Gandhi National Open University`,
+    Location: "New Delhi",
+    Type: "Correspondence",
+    Duration: "Jul 2017 - Jul 2022",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Newton School Web Development Bootcamp",
+    Company: `Newton School`,
+    Location: "Online",
+    Type: "Internship and Certifications",
+    Duration: "Jun 2022 - May 2023",
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "amitmali978@gmail.com",
+  phone: "+91 97186 98409",
 };

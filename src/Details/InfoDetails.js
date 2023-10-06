@@ -169,7 +169,7 @@ export const educationkDetails = [
     Company: `Newton School`,
     Location: "Online",
     Type: "Internship and Certifications",
-    Duration: "Jun 2022 - May 2023",
+    Duration: "Jun 2022 - Till",
   },
 
 ];

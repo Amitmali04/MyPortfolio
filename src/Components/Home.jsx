@@ -13,11 +13,12 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
+          {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap"></span></span> */}
 
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
+            I have 3 years of experience IT Excutive.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            React, Tailwind, Next JS, Node and MongoDB.
           </p>
 
           <div>

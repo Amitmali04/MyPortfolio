@@ -90,7 +90,7 @@ const Contact = () => {
           </div>
 
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
+            action="https://getform.io/f/33edb641-fbb7-4de9-ba86-6d955c682d8b"
             method="POST"
             className=" flex flex-col w-full"
           >

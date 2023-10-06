@@ -2,9 +2,7 @@ import React from "react";
 import { educationkDetails, workDetails } from "../Details/InfoDetails";
 import WorkInfo from "./WorkInfo";
 
-
 const About = () => {
-
   return (
     <div
       name="about"
@@ -17,52 +15,47 @@ const About = () => {
           </p>
 
           <p className="text-xl mt-10">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
-
-        </div>
-       
-        <div className="pb-10">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-          Work Experience
+            I am a dedicated professional with a passion for excellence. I am
+            committed to continuous learning and development to stay up-to-date
+            with the latest trends and technologies in my field. I am confident
+            in my ability to work collaboratively with cross-functional teams to
+            achieve project objectives and exceed expectations.
           </p>
-          {
-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <WorkInfo
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        }
         </div>
-
 
         <div className="pb-10">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-          Education
+            Work Experience
           </p>
-          {
-          educationkDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <WorkInfo
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        }
+          {workDetails.map(
+            ({ Position, Company, Location, Type, Duration }) => (
+              <WorkInfo
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+              />
+            )
+          )}
         </div>
-     
 
+        <div className="pb-10">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Education
+          </p>
+          {educationkDetails.map(
+            ({ Position, Company, Location, Type, Duration }) => (
+              <WorkInfo
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+              />
+            )
+          )}
+        </div>
       </div>
     </div>
   );
